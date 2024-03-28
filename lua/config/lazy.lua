@@ -9,11 +9,7 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
-<<<<<<< HEAD
-    { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-=======
     { "tryprncp/LazyVim", import = "lazyvim.plugins" },
->>>>>>> 31502ec (Remove colorscheme)
     -- import any extras modules here
     -- { import = "lazyvim.plugins.extras.lang.typescript" },
     -- { import = "lazyvim.plugins.extras.lang.json" },
