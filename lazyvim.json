@@ -1,0 +1,9 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.coding.codeium"
+  ],
+  "news": {
+    "NEWS.md": "2850"
+  },
+  "version": 3
+}
